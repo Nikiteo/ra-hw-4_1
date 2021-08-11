@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ra-hw-4_1/static/css/main.b0245027.chunk.css",
+    "main.js": "/ra-hw-4_1/static/js/main.069870c8.chunk.js",
+    "main.js.map": "/ra-hw-4_1/static/js/main.069870c8.chunk.js.map",
+    "runtime-main.js": "/ra-hw-4_1/static/js/runtime-main.909314ee.js",
+    "runtime-main.js.map": "/ra-hw-4_1/static/js/runtime-main.909314ee.js.map",
+    "static/js/2.37605044.chunk.js": "/ra-hw-4_1/static/js/2.37605044.chunk.js",
+    "static/js/2.37605044.chunk.js.map": "/ra-hw-4_1/static/js/2.37605044.chunk.js.map",
+    "index.html": "/ra-hw-4_1/index.html",
+    "static/css/main.b0245027.chunk.css.map": "/ra-hw-4_1/static/css/main.b0245027.chunk.css.map",
+    "static/js/2.37605044.chunk.js.LICENSE.txt": "/ra-hw-4_1/static/js/2.37605044.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ra-hw-4_1/static/media/Gotham-ExtraLight.801addc6.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.909314ee.js",
+    "static/js/2.37605044.chunk.js",
+    "static/css/main.b0245027.chunk.css",
+    "static/js/main.069870c8.chunk.js"
+  ]
+}
