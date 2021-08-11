@@ -11,6 +11,7 @@ export default function App() {
   };
 
   let result = '';
+  let style = {};
 
   const validaton = validateInput(input);
 
@@ -18,14 +19,15 @@ export default function App() {
     result = validaton.err;
   } else {
     result = hexToRgb(input).string;
-    document.body.style.background = result;
+    style.backgroundColor = result;
   }
 
-
   return (
-    <div className="App">
-      <input id="hex" type="text" placeholder="hex" autoComplete="off" value={input} onChange={handleInput}/>
-      <div className="result">{result}</div>
+    <div className="Wrap" style={style}>
+      <div className="App">
+        <input id="hex" type="text" placeholder="hex" autoComplete="off" value={input} onChange={handleInput}/>
+        <div className="result">{result}</div>
+      </div>
     </div>
   );
 }

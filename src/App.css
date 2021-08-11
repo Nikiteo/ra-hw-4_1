@@ -16,6 +16,20 @@
   box-sizing: border-box;
 }
 
+.Wrap {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 340px;
+  height: 125px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -62.5px -170px;
+}
+
 html,
 body {
   height: 100%;
@@ -72,12 +86,7 @@ input:focus,
 }
 
 #root {
-  width: 340px;
-  height: 125px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -62.5px -170px;
+
 }
 
 #hex {
